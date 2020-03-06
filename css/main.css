@@ -1,0 +1,16 @@
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+/*between 768px and 1200 px*/
+	body {
+    background: red;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media only screen and (min-width: 1201px) {
+/*1201px and larger*/
+	body {
+		background: blue;
+	}
+}
